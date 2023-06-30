@@ -1,20 +1,14 @@
 <template>
-    <CustomHeader></CustomHeader>
-    <HelloWorld msg="Hello! Good to see you."/>
-    <CustomFooter></CustomFooter>
+    <MyGreeting msg="Hello! Good to see you."></MyGreeting>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import CustomHeader from './components/Header.vue'
-import CustomFooter from './components/Footer.vue'
+import MyGreeting from './components/Greeting.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    CustomHeader,
-    CustomFooter
+    MyGreeting
   }
 }
 </script>
